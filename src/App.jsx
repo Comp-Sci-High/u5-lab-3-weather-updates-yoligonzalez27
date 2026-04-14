@@ -49,8 +49,8 @@ function handleRainy() {
     } else {
       alert("enjoy the sun shine.")
     }
-  }
-  useEffect(weatherUpdates; [weather]);
+  }, [])
+  useEffect(() => {}, [weather]);
 
 
 
