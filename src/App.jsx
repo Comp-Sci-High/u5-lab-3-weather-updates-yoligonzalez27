@@ -46,11 +46,10 @@ function handleRainy() {
       alert("wear a coat.");
     } else if (weather === "Hot") {
       alert("Drink water.");
-    } else {
+    } else if (weather === "Sunny"){
       alert("enjoy the sun shine.")
     }
-  }, [])
-  useEffect(() => {}, [weather]);
+  }, [weather]);
 
 
 
